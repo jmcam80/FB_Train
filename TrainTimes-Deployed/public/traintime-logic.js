@@ -9,8 +9,8 @@
 
 // Initialize Firebase
 var config = {
-  apiKey: "AIzaSyCcPFcbAjIsgXGQwE-A3AcOXkeD40qypE8",
-  authDomain: "train-times-93583.firebaseapp.com",
+  apiKey: "AIzaSyDgIyHxG4yu_Bw1dmFl_xddq3JZs4N2syA",
+  authDomain: "my-project-is-cool-522ee.firebaseapp.com",
   databaseURL: "https://train-times-93583.firebaseio.com",
   storageBucket: "train-times-93583.appspot.com"
 };
@@ -19,8 +19,7 @@ firebase.initializeApp(config);
 
 var trainData = firebase.database();
 
-// 2. Populate Firebase Database with initial data (in this case, I did this via Firebase GUI)
-// 3. Button for adding trains
+
 $("#add-train-btn").on("click", function() {
 
   // Grabs user input
